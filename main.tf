@@ -1,5 +1,5 @@
 resource "google_compute_instance" "vm-from-tf" {
-  name = "vm-from-tf"
+  name = "jenkins-vm-from-tf"
   zone = "asia-southeast1-a"
   machine_type = "n1-standard-2"
   allow_stopping_for_update = true
